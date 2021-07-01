@@ -4,10 +4,21 @@ ported to andorid with clang in termux in 2021.
 
 Install :
 
-1 download and install termux or any terminal emulator with a writeable directory configured.
-2 cd yourwriteabledirectory
-3 wget https://github.com/QuadDerrick/games/blob/main/phantasia.zip?raw=true
-4 unzip phantasia.zip\?raw\=true
-5 chmod a+x the phantasia file
-6 ./phantasia
+1 download and install termux with a writeable home directory configured.
+
+2 mkdir p
+
+3 cd p
+
+4 wget https://github.com/QuadDerrick/games/blob/main/phantasia.zip?raw=true
+
+5 unzip phantasia.zip\?raw\=true
+
+6 chmod a+x the phantasia file
+
+7 ./phantasia
+
+note, use the directory name "p" as the binary is compiled to run under this directory,
+or if you want to do it the manual way, download bsd-games , extract phantasia , compile it with clang in termux.
+
 good luck =)
