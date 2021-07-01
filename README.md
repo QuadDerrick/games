@@ -12,7 +12,7 @@ Install :
 
 4 wget https://github.com/QuadDerrick/games/blob/main/phantasia.zip?raw=true
 
-5 unzip "phantasia.zip\?raw\=true"
+5 'unzip phantasia.zip\?raw\=true'
 
 6 chmod a+x the phantasia file
 
