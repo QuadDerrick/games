@@ -12,13 +12,13 @@ Install :
 
 4 wget https://github.com/QuadDerrick/games/blob/main/phantasia.zip?raw=true
 
-5 unzip phantasia.zip\?raw\=true (tweak to make it work if needed)
+5 unzip phantasia.zip\?raw\=true (type unzip p and push tab to autocomplete filename if needed)
 
 6 chmod a+x the phantasia file
 
 7 ./phantasia
 
-note, use the directory name "p" as the binary is compiled to run under this directory,
-or if you want to do it the manual way, download bsd-games , extract phantasia , compile it with clang in termux.
+note, use the directory name "p" as instructed, the binary is compiled to run under this directory.
+If you want to do it the manual way, download bsd-games , configure it with only compiling phantasia, 99 prefix options for phantasia's internal files, compile it with clang in termux. Termux also has some prefix arrangments to be made before you can start compiling stuff, google it or ask in termux irc channel, they are good helpers =)
 
-good luck =)
+Enjoy.
