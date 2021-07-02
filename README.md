@@ -1,5 +1,5 @@
 # games
-phantasia  -  a game from the freebsd-games package made by Ted E. @ AT&T in 1986.
+phantasia  -  a game from the freebsd-games package made by Edward A. Estes @ AT&T in 1986.
 ported to andorid with clang in termux in 2021. 
 
 Install :
