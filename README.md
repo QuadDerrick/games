@@ -29,6 +29,7 @@ Now your figthing orcs , hob goblins , nazguls , smeagol and the dark lord himse
 
 Notes, use the directory names "p" and "phantasia" as instructed, the binary is compiled to run under these directorys.
 "pkg install wget" installs wget, pkg install unzip also is good if your starting from scratch.
-If you want to do it the manual way, download bsd-games , configure it up for only compiling phantasia, config ALL prefix options for phantasia's internal files, compile it with clang in termux. Termux also has some prefix arrangments to be made before you can start compiling stuff, google it or ask in termux irc channel, they are good helpers =)
-
+If you want to do it the manual way, download bsd-games , configure it up for only compiling phantasia, config ALL prefix options for phantasia's internal files, compile it with clang in termux. Termux also needs some special tweak with configure, 
+./configure --prefix=$PREFIX
+If configure script exits without errors, run make. If that exits without errors, execute the phantasia binary.
 Enjoy.
