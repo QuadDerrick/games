@@ -33,3 +33,9 @@ If you want to do it the manual way, download bsd-games , configure it up for on
 ./configure --prefix=$PREFIX
 If configure script exits without errors, run make. If that exits without errors, execute the phantasia binary.
 Enjoy.
+
+Short instructions to play the game:
+lkjh to move. kl keys move your characterin + direction on y or x line.(try it out, not too complicated=)
+you can also use option "1" in normal mode menu to move manually troughout the maps.
+0,0 = kings chamber, you need a crown to enter. once you have a crown you can collect free gold there among other things.
+many secret places are stored trough out the waste lands. for friendly tips, first shops are at , i think +400,400 800,800 and 1000,1000. maybe its 2000,2000 , not 1600,1600 like you might expect.. reading source code also is ,, somewhat good for figuring out land of names and shop places and, mosters and , all kinds of usefull fun info in the sources , unlike windows games. As always, reading the manual, man page, is also usefull.
